@@ -1,0 +1,51 @@
+.footer {
+  position: relative;
+  background-color: #212121;
+  height: 72px;
+
+  .footer-content {
+    color: #909090;
+    height: 100%;
+    width: calc(100vw - 12px);
+    display: flex;
+    justify-content: center;
+
+    .current-music-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .thumbnail-image-wrapper img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+      }
+
+      .music-content-info {
+        margin: 0 8px 0 16px;
+
+        .music-title {
+          font-weight: 500;
+          font-size: 14px;
+          color: #ffffff;
+        }
+
+        .music-content-other-info a, span {
+          font-size: 14px;
+          font-weight: 400;
+          color: #ffffffb3;
+        }
+
+        @media screen and (min-width: 1364px) {
+          .music-title {
+            font-size: 16px;
+          }
+
+          .music-content-other-info a, span {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

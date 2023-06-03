@@ -1,0 +1,59 @@
+<div ngClass="player">
+  <div ngClass="media-player-wrapper">
+    <div ngClass="media-player-content">
+      <iframe
+        width="520"
+        height="430"
+        [src]="url"
+        frameborder="0"
+        allowfullscreen
+        allow="autoplay"
+      ></iframe>
+    </div>
+  </div>
+
+  <div ngClass="side-panel-wrapper">
+    <div ngClass="tabs-container-options">
+      <mat-button-toggle-group>
+        <mat-button-toggle>A SEGUIR</mat-button-toggle>
+        <mat-button-toggle>LETRA</mat-button-toggle>
+        <mat-button-toggle>RELACIONADOS</mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+
+    <ul ngClass="playlist-items">
+      <ng-template ngFor let-item [ngForOf]="videos">
+        <li
+          ngClass="music-content-wrapper"
+          (click)="getVideo(item.snippet.resourceId.videoId)"
+          [ngStyle]="{
+            background:
+              currentVideo.id === item.snippet.resourceId.videoId
+                ? '#FFFFFF1A'
+                : 'transparent'
+          }"
+        >
+          <div ngClass="music-content-info">
+            <picture ngClass="thumbnail-image-wrapper">
+              <div ngClass="content-wrapper-play-button">
+                <mat-icon
+                  fontIcon="play_arrow"
+                  ngClass="material-symbols-outlined"
+                ></mat-icon>
+              </div>
+
+              <img src="{{ item.snippet.thumbnails.medium.url }}" />
+            </picture>
+
+            <div ngClass="title-author-info-wrapper">
+              <p ngClass="music-title-info">{{ item.snippet.title }}</p>
+              <p ngClass="music-author-info">
+                {{ item.snippet.videoOwnerChannelTitle }}
+              </p>
+            </div>
+          </div>
+        </li>
+      </ng-template>
+    </ul>
+  </div>
+</div>

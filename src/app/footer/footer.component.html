@@ -1,0 +1,23 @@
+<div ngClass="footer">
+  <div ngClass="footer-content">
+    <div ngClass="current-music-wrapper" *ngIf="currentVideo">
+      <div ngClass="thumbnail-image-wrapper">
+        <img src="{{ currentVideo.snippet.thumbnails.medium.url }}" />
+      </div>
+
+      <div ngClass="music-content-info">
+        <span ngClass="music-title">
+          {{ currentVideo.snippet.title }}
+        </span>
+        
+        <div ngClass="music-content-other-info">
+          <a> {{ currentVideo.snippet.channelTitle }}</a>
+          <span> • </span>
+          <a>{{ currentVideo.snippet.title }}</a>
+          <span> • </span>
+          <span>{{ currentVideo.snippet.publishedAt }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

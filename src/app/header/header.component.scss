@@ -1,0 +1,39 @@
+.headers {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  width: calc(100vw - 12px);
+
+  .youtube-logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    picture img {
+      height: 24px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .navbar-options mat-button-toggle-group mat-button-toggle {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 22px;
+    color: #ffffff80 !important;
+    background: transparent !important;
+
+    &:hover {
+      color: #ffffff !important;
+    }
+  }
+
+  .user-profile-avatar picture img {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}

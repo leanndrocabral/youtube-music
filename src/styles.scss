@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #030303;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+small {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+mat-button-toggle-group,
+mat-button-toggle {
+  border: transparent !important;
+  background: transparent !important;
+}
+
+mat-icon {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+.material-symbols-outlined {
+  color: #ffffff;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0;
+}

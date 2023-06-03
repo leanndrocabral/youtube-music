@@ -1,0 +1,8 @@
+<div>
+  <app-header />
+  <app-player
+    [videos]="videos"
+    (emitCurrentVideo)="onCurrentVideo($event)"
+  />
+  <app-footer [currentVideo]="currentVideo" />
+</div>
