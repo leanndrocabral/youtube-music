@@ -63,12 +63,6 @@ $ ng generate environments
 
 <img src='https://cdn.discordapp.com/attachments/1104814802787909804/1114634949430087690/image.png'/>
 
-<br/>
-
-<h3 align = "center">
-Iniciando aplicação
-</h3>
-
 <p>Após concluir as etapas, utilize o comando abaixo no terminal e acesse o <a href='http://localhost:4200/'>localhost.</a></p>
 
 ```bash
