@@ -26,7 +26,7 @@ Este projeto não tem o intuito de ser algo fidedigno. Fiz apenas para testar e 
 <br/>
 
 <h3 align = "center">
-Configurando a key do para utilizar a API do YouTube
+Configurando chave de API para utilizar a YouTube Data API
 </h3>
 
 <br/>
