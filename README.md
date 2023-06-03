@@ -1,16 +1,6 @@
-<h2 align="center" style='font-family: sans-serif'>
-	Inicialização
-</h2>
-
-<p align = "center">
-Passo a passo de como inicializar o projeto.
-</p>
-
-<br/>
-
 <h2
  align = "center">
-Iniciar projeto
+Inicializando projeto
 </h2>
 
 <br/>
