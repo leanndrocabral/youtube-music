@@ -57,7 +57,7 @@ $ ng generate environments
 
 <img src='https://cdn.discordapp.com/attachments/1104814802787909804/1114633212501704755/image.png'/>
 
-<p>Agora dentro de ambos os arquivos, crie uma chave chamada <span color: '#ED4245'>key</span> e passe o valor da chave gerado no Google Cloud.</p>
+<p>Agora dentro de ambos os arquivos, crie uma chave chamada <span color: '#ED4245'>key</span> e passe o valor da chave que foi gerado no Google Cloud.</p>
 
 <img src='https://cdn.discordapp.com/attachments/1104814802787909804/1114634949430087690/image.png'/>
 
