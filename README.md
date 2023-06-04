@@ -37,9 +37,7 @@ Caso queira acessar a documentação e ver como funciona a  YouTube Data API ace
 
 <p>Criando uma chave de API:</p>
 
-<picture>
 <img src='https://cdn.discordapp.com/attachments/1104814802787909804/1114631427162652773/Chave_de_API.gif' style='max-width: 700px' />
-</picture>
 
 <br/>
 
