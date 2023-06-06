@@ -7,7 +7,7 @@ Inicializando projeto
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/leanndrocabral/youtube-music-angular.git
+$ git clone https://github.com/leanndrocabral/youtube-music.git
 
 # Instale as dependências
 $ npm install
